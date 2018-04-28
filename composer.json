@@ -29,7 +29,8 @@
     "autoload-dev": {
         "psr-4": {
             "Tests\\": "tests/"
-        }
+        },
+        "barryvdh/laravel-ide-helper": "^2.1"
     },
     "extra": {
         "laravel": {
