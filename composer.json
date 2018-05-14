@@ -15,7 +15,8 @@
         "fzaninotto/faker": "~1.4",
         "mockery/mockery": "~1.0",
         "phpunit/phpunit": "~6.0",
-        "symfony/thanks": "^1.0"
+        "symfony/thanks": "^1.0",
+        "barryvdh/laravel-ide-helper": "^2.1"
     },
     "autoload": {
         "classmap": [
@@ -29,8 +30,7 @@
     "autoload-dev": {
         "psr-4": {
             "Tests\\": "tests/"
-        },
-        "barryvdh/laravel-ide-helper": "^2.1"
+        }
     },
     "extra": {
         "laravel": {
